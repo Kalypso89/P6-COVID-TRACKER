@@ -1,1 +1,1 @@
-export const apiURL = import.meta.env.VITE_api_url;
+export const API_URL = "https://disease.sh/v3/covid-19/";
