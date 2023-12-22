@@ -1,19 +1,18 @@
-import { useState } from "react"
-import { useEffect } from "react"
+import { useState, useEffect } from "react"
 import API_URL from "config.js"
 
 export function useTotalStatistics () {
-    const [testimonials, setTestimonials] = useState([]);
+    const [totalStatistics, setTotalStatistics] = useState([]);
 
     useEffect(() => {
         const myEndpoint = `${API_URL}all`;
         fetch(myEndpoint)
             .then(request => request.json())
             .then(json => {
-                setTestimonials(json.data.slice(0,10))
+                setTotalStatistics(json.data.slice(0,4))
             })
-    }, [setTestimonials]);
+    }, [setTotalStatistics]);
 
-    return testimonials;
+    return totalStatistics;
 }
 
