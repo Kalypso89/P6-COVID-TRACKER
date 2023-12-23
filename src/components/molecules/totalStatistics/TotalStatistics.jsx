@@ -10,6 +10,7 @@ export function TotalStatistics() {
           {
               totalStatistics.map(({ titleAPI, variationAPI, totalAPI }) => (
                   <RowStatistics 
+                      key={titleAPI}
                       title={titleAPI}
                       variation={variationAPI}
                       total={totalAPI}
