@@ -8,12 +8,10 @@ export function TotalStatistics() {
         <h1>COVID-19 Tracker</h1>
         <div className="statistics_container">
           {
-              totalStatistics.map(({ title, today, total }) => (
+              totalStatistics.map((row) => (
                   <RowStatistics 
                       key={title}
-                      title={title}
-                      today={today}
-                      total={total}
+                      {...row}
                   />
               ))
           }
