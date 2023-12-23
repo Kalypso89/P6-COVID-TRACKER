@@ -10,7 +10,7 @@ export function TotalStatistics() {
           {
               totalStatistics.map((row) => (
                   <RowStatistics 
-                      key={title}
+                      key={row.title}
                       {...row}
                   />
               ))
