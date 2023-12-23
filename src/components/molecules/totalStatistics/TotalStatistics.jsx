@@ -1,4 +1,4 @@
-import { useTotalStatistics } from "../../../configuration/hooks/useTotalStatistics";
+import { useTotalStatistics } from "../../../hooks/useTotalStatistics";
 import { RowStatistics } from "../../atoms/RowStatistics";
 
 export function TotalStatistics() {
@@ -8,12 +8,12 @@ export function TotalStatistics() {
         <h1>COVID-19 Tracker</h1>
         <div className="statistics_container">
           {
-              totalStatistics.map(({ titleAPI, variationAPI, totalAPI }) => (
+              totalStatistics.map(({ title, today, total }) => (
                   <RowStatistics 
-                      key={titleAPI}
-                      title={titleAPI}
-                      variation={variationAPI}
-                      total={totalAPI}
+                      key={title}
+                      title={title}
+                      today={today}
+                      total={total}
                   />
               ))
           }
