@@ -1,0 +1,117 @@
+/* Font */
+@font-face {
+    font-family: "covid";
+    src: url("/src/assets/fonts/lanenar_Lane.ttf");
+  }
+
+  body {
+    font-family:"covid";
+  }
+
+/* Font End */
+
+/* Navbar */
+/*.header-wrapper.fixed {
+    padding: 10px 0px;
+    box-shadow: 0 0.05rem 0.01rem rgba(75, 75, 90, 0.075);
+    border-color: transparent;
+    background-color: #fff;
+}
+
+.header-wrapper {
+    padding: 10px 0px;
+    background: transparent;
+    border-bottom: 0px solid #E1E1F0;
+    transition: all 0.3s ease-in-out;
+    z-index: 999;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: auto !important;
+}
+
+.navbar{
+    display: grid;
+    height: 70px;
+}
+
+.container-fluid{
+display: grid;
+}
+
+.nav-item a{
+    font-size:10px;
+    color:#515184 !important;
+    font-weight:bold;
+}
+
+.img-fluid{
+    height:15px;
+}
+
+.down{
+    height:7px;
+}
+
+
+
+
+
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #2a2c87;
+    border-color: #27297d;
+}
+
+.signin-btn .btn {
+    padding: 10px 20px !important;
+    min-width: 150px !important;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #2d2f91;
+    border-color: #2a2c87;
+}
+.btn:hover {
+    color: #515184;
+    text-decoration: none;
+}
+a:hover, a:focus, a.active {
+    text-decoration: none;
+    outline: none;
+    color: #3639AE;
+}
+a:hover {
+    color: #242674;
+    text-decoration: underline;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #3639AE;
+    border-color: #3639AE;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #515184;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}*/
+
+
+/* Navbar End */
