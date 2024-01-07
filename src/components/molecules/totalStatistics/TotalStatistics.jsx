@@ -1,5 +1,6 @@
 import { useTotalStatistics } from "../../../hooks/useTotalStatistics";
-import { RowStatistics } from "../../atoms/RowStatistics";
+import { RowStatistics } from "../../atoms/rowStatistics/RowStatistics";
+import "./totalStatistics.css";
 
 export function TotalStatistics() {
     const totalStatistics = useTotalStatistics();
