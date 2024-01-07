@@ -13,22 +13,30 @@ export function useTotalStatistics () {
                     {
                         title: "Total Case",
                         today: json.todayCases,
-                        total: json.cases
+                        total: json.cases,
+                        color: "#f00",
+                        backgroundColor: "#fff2f2"
                     },
                     {
                         title: "Active Case",
                         today: null,
-                        value: json.active
+                        total: json.active,
+                        color: "#ff6a07",
+                        backgroundColor: "#fff9f1"
                     },
                     {
                         title: "Recovered Case",
                         today: json.todayRecovered,
-                        total: json.recovered
+                        total: json.recovered,
+                        color: "#82c519",
+                        backgroundColor: "#edffec"
                     },
                     {
                         title: "Deaths Case",
                         today: json.todayDeaths,
-                        total: json.deaths
+                        total: json.deaths,
+                        color: "#3639ae",
+                        backgroundColor: "#eefbff"
                     }
                 ];
                 setTotalStatistics(dataStatistics);
