@@ -1,3 +1,5 @@
+import "./rowStatistics.css"
+
 export function RowStatistics({title, today, total}) {
   return (
     <div className="statistics_row">
