@@ -4,7 +4,7 @@ import "./tracker0Organism.css";
 
 export function Tracker0Organism() {
     return (
-      <aside>
+      <aside className="tracker0_organism">
         <TotalStatistics></TotalStatistics>
         <Top10Country></Top10Country> 
       </aside>
