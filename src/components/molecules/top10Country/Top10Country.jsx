@@ -6,7 +6,8 @@ export function Top10Country() {
   const top10Country = useTop10Country();
   return (
     <section>
-      <div className="top10_container">
+      <h4 className="top10_title">Top 10 Country</h4>
+      <ul className="top10_container">
         {
             top10Country.map((row) => (
                 <RowTop10Country 
@@ -15,7 +16,7 @@ export function Top10Country() {
                 />
             ))
         }
-      </div>
+      </ul>
     </section>
   )
 }
