@@ -2,10 +2,10 @@ import "./homeNavbar.css"
 
 export const HomeNavbar = () => {
   return (
-      <nav class="navbar navbar-expand-lg navbar-light justify-content-center">
-        <div class="container-fluid justify-content-center">
+      <nav class="navbar navbar-expand-lg navbar-light h-25">
+        <div class="container-fluid">
         <a class="navbar-brand logo-dark" href="index.html">
-          <img src="/src/assets/images/logo.png" alt="logo" class="img-fluid w-50" />
+          <img src="/src/assets/images/logo.png" alt="logo" class="img-fluid w-90" />
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -14,34 +14,31 @@ export const HomeNavbar = () => {
           <div class="container">
             <div class="row">
                 <div class="col-xl-12 navigation">
-                          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
+                          <ul class="navbar-nav me-auto mb-1 mb-lg-0 flex-row-reverse d-flex justify-content-evenly">
+                            <li class="nav-item1">
                               <a class="nav-link h6 mark active" aria-current="page" href="#">
-                                <small>Home <img src="/src/assets/icons/angle-down.svg" class='down' /></small>
+                                <medium>Tracker</medium>
                               </a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link h6 mark" href="#"><small>Prevention</small></a>
+                              <a class="nav-link h6 mark" href="#"><medium>Help</medium></a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link h6 mark" href="#"><small>Qurantine</small></a>
+                              <a class="nav-link h6 mark" href="#"><medium>About</medium></a>
                             </li>
                             <li class="nav-item">
                               <a class="nav-link h6 mark" href="#">
-                                <small>Pages <img src="/src/assets/icons/angle-down.svg" class='down' /></small>
-                                
+                                <medium>Pages</medium>
                               </a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link h6 mark" href="#"><small>About</small></a>
+                              <a class="nav-link h6 mark" href="#"><medium>Quarentine</medium></a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link h6 mark" href="#"><small>Help</small></a>
+                              <a class="nav-link h6 mark" href="#"><medium>Prevention</medium></a>
                             </li>
                             <li class="nav-item">
-                            <div class="signin-btn">
-                            <button type="button" class="btn btn-primary btn-sm rounded">Tracker</button>
-                              </div>
+                              <a class="nav-link h6 mark" href="#"><medium>Home</medium></a>
                             </li>
                           </ul>
                     </div>
@@ -50,4 +47,5 @@ export const HomeNavbar = () => {
           </div>
         </div>
       </nav>
+      
   )}
