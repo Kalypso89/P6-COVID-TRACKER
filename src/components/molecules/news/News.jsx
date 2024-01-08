@@ -24,25 +24,29 @@ export const News = () => {
   return (
     
 <section className='background-image'>
-    <h1>Lastest News</h1>
+
+    <h1>Lastest News About</h1>
+      <h1>Corona Virus</h1>
   
-      
+    <div className="card-group">
         {data ? (
           data.map((item) => (
-            <section className="detailsContainer row">
-                <div key={item.key} class="col-4">
-                    <img src={`${item.image}`} height="125" alt="" />
-                    <div className="detailsContent">
-                        <h4><a href={item.link.url}>{item.link.text}</a></h4>
-                        <p className='detailsContent__subtitle'>{formatDate(item.newsDate)}</p>
-                        <p>{item.text}</p>
-                    </div>
-                </div>
-            </section>
+            
+          <div key={item.key} className="card my-2 mx-2 my-card">
+            <img src={`${item.image}`} style={{ marginLeft: '40px', width: '370px' }} alt="" />
+            <div className="card-body" style={{ width: '370px' }}>
+                <p className='detailsContent__subtitle'><span className='mdi mdi-timer-outline'></span> {formatDate(item.newsDate)} <span className='mdi mdi-comment-outline'></span> {item.comments} comments</p>
+                <h4><a href={item.link.url}>{item.link.text}</a></h4>
+                <p><a href={item.link.url}>Continue</a></p>
+            </div>
+        </div>
+            
           ))
         ) : (
           <p>Loading...</p>
         )}
+        </div>
       
     </section>
+
   )}

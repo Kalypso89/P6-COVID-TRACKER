@@ -1,0 +1,13 @@
+h1 {
+    margin-top: 25px;
+    text-align: center;
+    color: #293F73;
+    font-size: 55px;
+    font-weight: bolder;
+}
+.my-card{
+    width: 370px; 
+    flex: unset !important; 
+    margin-right: 20px !important;
+    border: none;
+}
