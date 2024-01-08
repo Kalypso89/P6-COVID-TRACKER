@@ -1,4 +1,4 @@
-import { Tracker0Organism } from "../../organism/tracker0/Tracker0Organism";
+import { Tracker0Organism } from "../../organism/tracker0Organism/Tracker0Organism";
 export function Tracker2Page() {
   return (
     <>
