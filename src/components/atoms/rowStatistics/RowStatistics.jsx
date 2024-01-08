@@ -6,7 +6,7 @@ export function RowStatistics({title, today, total, color, backgroundColor}) {
     <li className="statistics_row" data-color={color} style={{ backgroundColor, borderColor: color }}>
         <h6 className="statistics_row_title">{title}</h6>
         {
-          today && <span className="statistics_row_today">+{today}</span>
+          today !== null && <span className="statistics_row_today">+{today}</span>
         }
         <span className="statistics_row_total" style={{ color }}>{total}</span>
     </li>
