@@ -1,0 +1,35 @@
+
+.covid_total_info_widget {
+    background: #fff;
+    padding: 20px 0 20px 0;
+    box-shadow: 0 15px 20px 0 rgba(20, 50, 90, 0.05);
+    border-radius: 3px;
+    transition: all 0.5s;
+    max-width: 200px;
+    transition: transform 0.4s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.covid_total_info_widget h4 {
+    font-size: 15px;
+    margin: 0;
+    font-weight: 400;
+}
+
+.covid_total_info_widget h3 {
+    font-size: 30px;
+    margin-bottom: 0;
+    text-align: left; 
+}
+
+.total_covid_icon img {
+    padding-right: 10px;
+    width: 55px;
+}
+
+.total_stats_info{
+    color: #12135a;
+}
+
