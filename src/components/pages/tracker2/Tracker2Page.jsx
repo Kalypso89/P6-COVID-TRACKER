@@ -1,5 +1,5 @@
-import { Tracker0Organism } from "../../organism/tracker0/Tracker0Organism"
-import { Tracker2Organism } from "../../organism/tracker2/Tracker2Organism"
+import { Tracker0Organism } from "../../organism/tracker0Organism/Tracker0Organism"
+import { Tracker2Organism } from "../../organism/tracker2Organism/Tracker2Organism"
 import { NavbarMolecule } from "../../molecules/navbar/NavbarMolecule"
 import './tracker2Page.css'
 
