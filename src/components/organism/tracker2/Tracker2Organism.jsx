@@ -3,7 +3,7 @@ import DataTables from "datatables.net";
 import $ from 'jquery'
 import './tracker2Organism.css'
  
-export function Tabla(props) {
+export function Tracker2Organism(props) {
  
 $.DataTable = DataTables.DataTable;
 const tableRef = useRef()
@@ -17,13 +17,13 @@ useEffect(() => {
                 { title: "Flag"},
                 { title: "Country"},
                 { title: "Cases"},
-                { title: "TodayCases"},
+                { title: "New Cases"},
                 { title: "Deaths"},
-                { title: "TodayDeaths"},
+                { title: "New Deaths"},
                 { title: "Recovered"},
                 { title: "Active"},
                 { title: "Critical"},
-                { title: "Tests"}
+                { title: "Tested"}
             ],
             destroy: true  // I think some clean up is happening here
         }
@@ -36,7 +36,11 @@ useEffect(() => {
 },[])
     return (
         <div>
-            <table className="display" width="100%" ref={ tableRef }></table>
+            <div className="tabla_completa">
+                <div id="titletable">Ajax Data Table - Covid-19 Country Wise State</div>
+                <hr id="hrr" />
+                <table className="display" width="100%" ref={ tableRef }></table>
+            </div>
         </div>
          
     )
