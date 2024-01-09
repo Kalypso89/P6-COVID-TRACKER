@@ -1,4 +1,5 @@
 import "./homeNavbar.css"
+import { Link } from "react-router-dom"
 
 export const HomeNavbar = () => {
   return (
@@ -16,9 +17,9 @@ export const HomeNavbar = () => {
                 <div class="col-xl-12 navigation">
                           <ul class="navbar-nav me-auto mb-1 mb-lg-0 flex-row-reverse d-flex justify-content-evenly">
                             <li class="nav-item1">
-                              <a class="nav-link h6 mark active" aria-current="page" href="#">
+                              <Link to= "/tracker1" class="nav-link h6 mark active" aria-current="page">
                                 <medium>Tracker</medium>
-                              </a>
+                              </Link>
                             </li>
                             <li class="nav-item">
                               <a class="nav-link h6 mark" href="#"><medium>Help</medium></a>
