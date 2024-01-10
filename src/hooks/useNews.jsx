@@ -19,8 +19,7 @@ const useNews = () => {
               { key: 1, "image": "https://covimap.dexignzone.com/xhtml/images/blog-1.jpg", "newsDate": new Date(2020, 8, 9), "link": { "url": "https://covimap.dexignzone.com/xhtml/blog-single.html", "text": "What should I do if I have COVID-19 symptoms" }, comments: 2 },
               { key: 2, "image": "https://covimap.dexignzone.com/xhtml/images/blog-3.jpg", "newsDate": new Date(2020, 8, 8), "link": { "url": "https://covimap.dexignzone.com/xhtml/blog-single.html", "text": "What you need to know About Coronavirus" }, comments: 20 },
               { key: 3, "image": "https://covimap.dexignzone.com/xhtml/images/blog-2.jpg", "newsDate": new Date(2020, 8, 7), "link": { "url": "https://covimap.dexignzone.com/xhtml/blog-single.html", "text": "Seek immediate care if you have difficulty breathing" }, comments: 2 },
-              { key: 4, "image": "https://covimap.dexignzone.com/xhtml/images/blog-3.jpg", "newsDate": new Date(2020, 8, 8), "link": { "url": "https://covimap.dexignzone.com/xhtml/blog-single.html", "text": "What you need to know About Coronavirus" }, comments: 20 },
-              { key: 5, "image": "https://covimap.dexignzone.com/xhtml/images/blog-2.jpg", "newsDate": new Date(2020, 8, 7), "link": { "url": "https://covimap.dexignzone.com/xhtml/blog-single.html", "text": "Seek immediate care if you have difficulty breathing" }, comments: 2 }
+
             ]);
           } else {
             const jsonData = await endpointResponse.json();
