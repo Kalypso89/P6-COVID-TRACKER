@@ -46,14 +46,15 @@ const News = () => {
 
   return (
     <section className='background-image'>
-      <h1>Latest News</h1>
+      <h1>Latest News About</h1>
+      <h1>Corona Virus</h1>
       <div className="card-group">
         {loading ? (
           <p>Loading...</p>
         ) : (
           data.map((item) => (
-            <div key={item.key} className="card my-2 mx-2" style={{ width: '370px', flex: 'unset', marginRight: '40px', border: 'none' }}>
-              <img src={`${item.image}`} style={{ width: '370px' }} alt="" />
+            <div key={item.key} className="card my-2 mx-2 my-card">
+              <img src={`${item.image}`} style={{ marginLeft:'35px', width: '370px' }} alt="" />
               <div className="card-body" style={{ width: '370px' }}>
                 <p className='detailsContent__subtitle'><span className='mdi mdi-timer-outline'></span> {formatDate(item.newsDate)} <span className='mdi mdi-comment-outline'></span> {item.comments} comments</p>
                 <h4><a href={item.link.url}>{item.link.text}</a></h4>
