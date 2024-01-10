@@ -1,9 +1,14 @@
 import { Tracker0Organism } from "../../organism/tracker0Organism/Tracker0Organism";
+import { Tracker2Organism } from "../../organism/tracker2Organism/Tracker2Organism"
+import { NavbarMolecule } from "../../molecules/navbar/NavbarMolecule"
+import './tracker2Page.css'
+
 export function Tracker2Page() {
   return (
-    <>
-      <h1>Éste es el componente Tracker2</h1>
+    <div className="tracker2_page">
+      <NavbarMolecule></NavbarMolecule>
       <Tracker0Organism></Tracker0Organism>
-    </>
+      <Tracker2Organism></Tracker2Organism>
+    </div>
   );
 }
