@@ -6,12 +6,8 @@ import { CardsTotalTracker1Molecule } from "../../molecules/cardsTotalTracker1/C
 
 export const Tracker1Organism = () => {
   return (
-    <div>
-      <div className="title_select">
+    <div className="container_organism_tracker1">
       <SelectCountryTracker1Atom></SelectCountryTracker1Atom>
-      <p>Update: January</p>
-      </div>
-      
       <CardsCountryTracker1Molecule></CardsCountryTracker1Molecule>
       <CardsTotalTracker1Molecule></CardsTotalTracker1Molecule>
 

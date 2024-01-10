@@ -1,9 +1,12 @@
+.content_select_country{
+    padding: 0;
+}
 .form-select{
     width: 300px;
     font-size: 17px;
-    color: rgba(0, 0, 0, 0.815) !important;
+    color: rgba(0, 0, 0, 0.815);
     font-weight: 500;
-    /* border: 0; */
+    border: 0;
     box-shadow: 0 15px 30px 0 rgba(20, 50, 90, 0.05);
     padding: 10px 10px 10px 25px !important;
     height: 50px;
@@ -11,4 +14,13 @@
 
 .form-select option{
     font-size: 15px;
+}
+
+.title_select {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.075);
+}
+
+.content_date > p {
+    font-weight: 500;
+    margin: 0;
 }

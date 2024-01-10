@@ -2,7 +2,7 @@ import "./cardCountryStatisticsTracker1Atom.css"
 
 export const CardCountryStatisticsTracker1Atom = () => {
     return (
-            <div className="col-md-4 col-lg-6 col-6">
+            <div className="col-md-4 col-lg-6 col-6 container_covid_info">
                 <div className="covid_info_widget">
                     <div className="covid_icon">
                         <img src="./src/assets/icons/covid-blue.svg" alt="Covid Icon"/>
