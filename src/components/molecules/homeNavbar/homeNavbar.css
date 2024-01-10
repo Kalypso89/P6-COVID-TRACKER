@@ -6,4 +6,12 @@
 
   body {
     font-family: "covid";
+    font-weight: bolder;
+  }
+
+  .nav-item1{
+    background-color: #2D2F91;
+    border-radius: 25px;
+    width: 15%;
+    text-align: center;
   }

@@ -17,7 +17,7 @@ export const HomeNavbar = () => {
                 <div class="col-xl-12 navigation">
                           <ul class="navbar-nav me-auto mb-1 mb-lg-0 flex-row-reverse d-flex justify-content-evenly">
                             <li class="nav-item1">
-                              <Link to= "/tracker1" class="nav-link h6 mark active" aria-current="page">
+                              <Link to= "/tracker1" class="nav-link h6 mark active text-white" aria-current="page">
                                 <medium>Tracker</medium>
                               </Link>
                             </li>
