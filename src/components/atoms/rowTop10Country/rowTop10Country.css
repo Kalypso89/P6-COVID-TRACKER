@@ -1,0 +1,33 @@
+.top10_row {
+    display: flex;
+    padding: 9px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.06);
+    border: 1px #eee solid;
+    transition: all 0.2s;
+    background-color: #fff;
+}
+
+.top10_row:hover {
+    transform: scale(1.05);
+}
+
+.top10_row_flag {
+    width: 40px;
+    border-radius: 3px;
+}
+
+.top10_row_country {
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 10px;
+    color: #111;
+    flex-grow: 1;
+}
+
+.top10_row_cases {
+    color: #121158;
+    font-size: 13px;
+    font-weight: 600;
+}

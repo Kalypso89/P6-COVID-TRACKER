@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "covid";
+    src: url("/src/assets/fonts/lanenar_Lane.ttf");
+    font-family: "covid-bold";
+    src: url ("/src/assets/fonts/themify.ttf");
+  }
+
+  :root {
+    --background: #F7F8FC;
+    --cherry: #FF0505;
+    --cherry-light: #FFF2F2;
+    --blue:#3639AE;
+    --blue-light:#EEFBFF;
+    --blue-dark:#1B2A4E;
+    --orange: #FF6A07;
+    --orange-light: #FFF9F1;
+    --green:#82C519;
+    --green-light:#EDFFEC;
+  }
+
+
