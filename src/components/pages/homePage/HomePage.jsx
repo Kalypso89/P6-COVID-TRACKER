@@ -1,5 +1,5 @@
 import  {HomeNavbar}  from "../../molecules/homeNavbar/HomeNavbar";
-import  News  from "../../molecules/news/News";
+import  {News}  from "../../molecules/news/News";
 export function HomePage() {
   return (
     <>

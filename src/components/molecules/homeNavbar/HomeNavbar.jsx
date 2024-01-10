@@ -3,43 +3,39 @@ import { Link } from "react-router-dom"
 
 export const HomeNavbar = () => {
   return (
-      <nav class="navbar navbar-expand-lg navbar-light h-25 bg-white">
-        <div class="container-fluid">
-        <a class="navbar-brand logo-dark" href="index.html">
-          <img src="/src/assets/images/logo.png" alt="logo" class="img-fluid w-90" />
+      <nav className="navbar navbar-expand-lg navbar-light h-25 bg-white">
+        <div className="container-fluid">
+        <a className="navbar-brand logo-dark" href="index.html">
+          <img src="/src/assets/images/logo.png" alt="logo" className="img-fluid w-90" />
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarText">
-          <div class="container">
-            <div class="row">
-                <div class="col-xl-12 navigation">
-                          <ul class="navbar-nav me-auto mb-1 mb-lg-0 flex-row-reverse d-flex justify-content-evenly">
-                            <li class="nav-item1">
-                              <Link to= "/tracker1" class="nav-link h6 mark active text-white" aria-current="page">
-                                <medium>Tracker</medium>
-                              </Link>
+          <div className="collapse navbar-collapse" id="navbarText">
+          <div className="container">
+            <div className="row">
+                <div className="col-xl-12 navigation">
+                          <ul className="navbar-nav me-auto mb-1 mb-lg-0 flex-row-reverse d-flex justify-content-evenly">
+                            <li className="nav-item1">
+                              <Link to= "/tracker1" className="nav-link h6 mark active text-white medium" aria-current="page">Tracker</Link>
                             </li>
-                            <li class="nav-item">
-                              <a class="nav-link h6 mark" href="#"><medium>Help</medium></a>
+                            <li className="nav-item">
+                              <a className="nav-link h6 mark medium" href="#">Help</a>
                             </li>
-                            <li class="nav-item">
-                              <a class="nav-link h6 mark" href="#"><medium>About</medium></a>
+                            <li className="nav-item">
+                              <a className="nav-link h6 mark medium" href="#">About</a>
                             </li>
-                            <li class="nav-item">
-                              <a class="nav-link h6 mark" href="#">
-                                <medium>Pages</medium>
-                              </a>
+                            <li className="nav-item">
+                              <a className="nav-link h6 mark medium" href="#">Pages</a>
                             </li>
-                            <li class="nav-item">
-                              <a class="nav-link h6 mark" href="#"><medium>Quarentine</medium></a>
+                            <li className="nav-item">
+                              <a className="nav-link h6 mark medium" href="#">Quarentine</a>
                             </li>
-                            <li class="nav-item">
-                              <a class="nav-link h6 mark" href="#"><medium>Prevention</medium></a>
+                            <li className="nav-item">
+                              <a className="nav-link h6 mark medium" href="#">Prevention</a>
                             </li>
-                            <li class="nav-item">
-                              <a class="nav-link h6 mark" href="#"><medium>Home</medium></a>
+                            <li className="nav-item">
+                              <a className="nav-link h6 mark medium" href="#">Home</a>
                             </li>
                           </ul>
                     </div>
