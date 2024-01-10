@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import { HomePage } from '../components/pages/homePage/HomePage';
 import { Tracker1Page } from '../components/pages/tracker1/Tracker1Page';
 import { Tracker2Page } from '../components/pages/tracker2/Tracker2Page';
