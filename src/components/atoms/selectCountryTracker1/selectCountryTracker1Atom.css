@@ -1,8 +1,6 @@
-.content_select_country{
-    padding: 0;
-}
+
 .form-select{
-    width: 300px;
+    /* width: 300px; */
     font-size: 17px;
     color: rgba(0, 0, 0, 0.815);
     font-weight: 500;
