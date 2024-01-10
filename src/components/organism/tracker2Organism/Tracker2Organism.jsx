@@ -9,7 +9,7 @@ const content = await getData.json();
 
 var datacovid = [];
 
-for(let i = 0; i < c.length; i++){
+for(let i = 0; i < content.length; i++){
     const tableContent = ['<img src='+ content[i].countryInfo.flag +' height="20">', content[i].country, content[i].cases, content[i].todayCases,
     content[i].deaths, content[i].todayDeaths, content[i].recovered, content[i].active, content[i].critical, content[i].tests]
     datacovid.push(tableContent);
