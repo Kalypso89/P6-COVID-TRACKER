@@ -1,1 +1,6 @@
+@import url(../../../styles.css);
 
+.tracker3_page {
+    display: flex;
+    background-color: var(background-color);
+}

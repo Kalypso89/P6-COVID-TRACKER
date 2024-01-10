@@ -1,0 +1,15 @@
+@import url(../../../styles.css);
+
+.tracker3_organism {
+    background-color:var (--background);
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.tracker_title_text{
+    font-weight: 500;
+    font-size: 1.3rem;
+    color:var(--blue-dark);
+}
+
