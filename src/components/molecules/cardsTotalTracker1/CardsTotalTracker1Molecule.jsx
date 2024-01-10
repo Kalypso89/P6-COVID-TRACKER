@@ -4,7 +4,7 @@ import { CardTotalStatisticsTracker1Atom } from "../../atoms/cardTotalStatistics
 export const CardsTotalTracker1Molecule = () => {
   return (
     
-      <div className='row content_cards_total_statistics'>
+      <div className='row content_cards_total_statistics mt-4'>
         <CardTotalStatisticsTracker1Atom></CardTotalStatisticsTracker1Atom>
         <CardTotalStatisticsTracker1Atom></CardTotalStatisticsTracker1Atom>
         <CardTotalStatisticsTracker1Atom></CardTotalStatisticsTracker1Atom>
