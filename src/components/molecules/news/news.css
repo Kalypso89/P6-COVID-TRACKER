@@ -6,15 +6,22 @@ h1 {
     text-align: center;
     color: #293F73;
     font-size: 55px;
-    font-weight: bolder;
+    font-weight: 700;
 }
 .my-card{
     width: 370px; 
     flex: unset !important; 
     margin-right: 20px !important;
     border: none;
+    background: unset;
 }
 
-p{
+p, h4{
     margin-left: 20px;
+    font-weight: bolder;
+}
+
+a{
+    color: #293F73;
+    font-weight: bolder;
 }
