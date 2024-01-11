@@ -1,6 +1,6 @@
-import "./rowTop10Country.css"
+import "./rowTop10CountryAtom.css"
 
-export function RowTop10Country({flag, country, cases}) {
+export function RowTop10CountryAtom({flag, country, cases}) {
   return (
     <li className="top10_row">
         <img src={flag} className="top10_row_flag"/>

@@ -1,6 +1,6 @@
-import "./rowStatistics.css"
+import "./rowStatisticsAtom.css"
 
-export function RowStatistics({title, today, total, color, backgroundColor}) {
+export function RowStatisticsAtom({title, today, total, color, backgroundColor}) {
 
   return (
     <li className="statistics_row" data-color={color} style={{ backgroundColor, borderColor: color }}>
