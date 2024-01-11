@@ -1,0 +1,58 @@
+@import url(../../../styles.css);
+
+
+.top_today_card {
+    background-color: white;
+    height: 4.2vh;
+    width: 16.6vh;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom:  2vh;
+    transition: all 0.2s;
+    box-shadow: 0 15px 30px 0 rgb(20 50 90 / 5%);
+    padding: 10px 10px 10px 10px;
+    color:var(--blue-dark);
+    
+}
+
+.top_today_card:hover {
+    transform: scale(1.10);
+}
+
+.flag {
+    height: 2.3vh;
+    width: 2.3vh;
+    border-radius: 50%;
+    background-color: aqua;
+    align-items: center;
+    margin-right:10px;
+}
+
+
+@media (min-width: 576px) {
+    .col-sm-6 .top_today_card {
+      width: 100%; 
+    }
+  }
+  
+  /* 4 columnas */
+  @media (min-width: 768px) {
+    .col-md-4 .top_today_card {
+      width: 100%;
+    }
+  }
+  
+  /*3 columnas */
+  @media (min-width: 992px) {
+    .col-lg-2 .top_today_card {
+      width: 100%;
+    }
+  }
+  
+  /* 2 columnas */
+  @media (min-width: 1200px) {
+    .col-xl-2 .top_today_card {
+      width: 100%;
+    }
+  }

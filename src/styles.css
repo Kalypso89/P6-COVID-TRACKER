@@ -3,6 +3,10 @@
     src: url("/src/assets/fonts/lanenar_Lane.ttf");
     font-family: "covid-bold";
     src: url ("/src/assets/fonts/themify.ttf");
+    font-family:"webfont";
+    font-family:url("/src/assets/fonts/fontawesome-webfont.ttf");
+    font-family:"glyphicons";
+    font-family:url("/src/assets/fonts/glyphicons-halflings-regular.ttf");
   }
 
   :root {

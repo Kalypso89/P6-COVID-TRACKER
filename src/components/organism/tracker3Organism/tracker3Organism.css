@@ -1,15 +1,27 @@
 @import url(../../../styles.css);
 
 .tracker3_organism {
-    background-color:var (--background);
+    background-color:var(--background);
     display:flex;
     flex-direction: column;
     width: 100%;
+    padding-right: 3vh;
+    padding-left: 3vh;
+    padding-top:3vh;
 }
 
 .tracker_title_text{
-    font-weight: 500;
-    font-size: 1.3rem;
     color:var(--blue-dark);
+    font-size: 22px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 10px;
+    font-weight: 600;
 }
 
+h4 {
+    line-height: 1.2;
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color:var(--blue-dark);
+}
