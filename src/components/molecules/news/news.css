@@ -1,6 +1,3 @@
-body{
-    background: linear-gradient(#E4EBF7, white);
-}
 h1 {
     margin-top: 25px;
     text-align: center;
@@ -8,16 +5,17 @@ h1 {
     font-size: 55px;
     font-weight: 700;
 }
+
 .my-card{
     width: 370px; 
     flex: unset !important; 
-    margin-right: 20px !important;
+    margin-right: 30px !important;
     border: none;
     background: unset;
 }
 
 p, h4{
-    margin-left: 20px;
+    margin-left: 10px;
     font-weight: bolder;
 }
 

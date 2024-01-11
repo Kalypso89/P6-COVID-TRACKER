@@ -15,7 +15,7 @@ export const HomeNavbar = () => {
           <div className="container">
             <div className="row">
                 <div className="col-xl-12 navigation">
-                          <ul className="navbar-nav me-auto mb-1 mb-lg-0 flex-row-reverse d-flex justify-content-evenly">
+                          <ul className="navbar-nav me-auto mb-1 mb-lg-0 flex-row-reverse d-flex justify-content-evenly align-items-center">
                             <li className="nav-item1">
                               <Link to= "/tracker1" className="nav-link h6 mark active text-white medium" aria-current="page">Tracker</Link>
                             </li>
@@ -29,7 +29,7 @@ export const HomeNavbar = () => {
                               <a className="nav-link h6 mark medium" href="#">Pages</a>
                             </li>
                             <li className="nav-item">
-                              <a className="nav-link h6 mark medium" href="#">Quarentine</a>
+                              <a className="nav-link h6 mark medium" href="#">Quarantine</a>
                             </li>
                             <li className="nav-item">
                               <a className="nav-link h6 mark medium" href="#">Prevention</a>
