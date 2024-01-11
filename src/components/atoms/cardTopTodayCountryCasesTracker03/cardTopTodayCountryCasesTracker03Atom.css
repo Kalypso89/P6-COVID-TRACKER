@@ -38,14 +38,14 @@
   
   /* 4 columnas */
   @media (min-width: 768px) {
-    .col-md-4 .top_today_card {
+    .col-lg-4 .top_today_card {
       width: 100%;
     }
   }
   
   /*3 columnas */
   @media (min-width: 992px) {
-    .col-lg-2 .top_today_card {
+    .col-xl-2 .top_today_card {
       width: 100%;
     }
   }
