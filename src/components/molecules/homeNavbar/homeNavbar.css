@@ -1,0 +1,17 @@
+@import url("../../../styles.css");
+
+  .nav-item1{
+    background-color: #2D2F91;
+    border-radius: 25px;
+    width: 15%;
+    text-align: center;
+  }
+
+  .nav-link{
+    margin: 0;
+    padding: 10px;
+  }
+
+  .navbar {
+    box-shadow: 0px 30px 60px rgba(160, 159, 202, 0.45);
+  }
