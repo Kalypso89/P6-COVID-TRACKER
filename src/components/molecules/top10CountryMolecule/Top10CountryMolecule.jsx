@@ -1,8 +1,8 @@
 import { useTop10Country } from "../../../hooks/useTop10Country";
-import { RowTop10Country } from "../../atoms/rowTop10Country/RowTop10Country";
-import "./top10Country.css"
+import { RowTop10CountryAtom } from "../../atoms/rowTop10CountryAtom/RowTop10CountryAtom";
+import "./top10CountryMolecule.css"
 
-export function Top10Country() {
+export function Top10CountryMolecule() {
   const top10Country = useTop10Country();
   return (
     <section>
@@ -10,7 +10,7 @@ export function Top10Country() {
       <ul className="top10_container">
         {
             top10Country.map((row) => (
-                <RowTop10Country 
+                <RowTop10CountryAtom 
                     key={row.country}
                     {...row}
                 />

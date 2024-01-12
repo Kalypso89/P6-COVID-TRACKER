@@ -1,5 +1,10 @@
+import  {HomeNavbar}  from "../../molecules/homeNavbar/HomeNavbar";
+import  {News}  from "../../molecules/news/News";
 export function HomePage() {
-    return (
-      <h1>Éste es el componente Home</h1>
-    );
-  }
+  return (
+    <>
+      <HomeNavbar></HomeNavbar>
+      <News></News>
+    </>
+  );
+}
