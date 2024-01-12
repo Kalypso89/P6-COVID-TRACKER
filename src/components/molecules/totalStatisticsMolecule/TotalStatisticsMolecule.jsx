@@ -1,8 +1,8 @@
 import { useTotalStatistics } from "../../../hooks/useTotalStatistics";
-import { RowStatistics } from "../../atoms/rowStatistics/RowStatistics";
-import "./totalStatistics.css";
+import { RowStatisticsAtom } from "../../atoms/rowStatisticsAtom/RowStatisticsAtom";
+import "./totalStatisticsMolecule.css";
 
-export function TotalStatistics() {
+export function TotalStatisticsMolecule() {
     const totalStatistics = useTotalStatistics();
     return (
       <section>
@@ -10,7 +10,7 @@ export function TotalStatistics() {
         <ul className="statistics_container">
           {
               totalStatistics.map((row) => (
-                  <RowStatistics 
+                  <RowStatisticsAtom 
                       key={row.title}
                       {...row}
                   />

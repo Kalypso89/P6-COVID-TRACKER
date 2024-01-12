@@ -1,5 +1,6 @@
 .top10_row {
     display: flex;
+    flex-wrap: wrap;
     padding: 9px;
     margin-bottom: 10px;
     border-radius: 4px;
@@ -7,7 +8,14 @@
     border: 1px #eee solid;
     transition: all 0.2s;
     background-color: #fff;
+    width: 100%;
 }
+
+@media (max-width: 1399px) {
+    .top10_row_cases {
+        width: 100%;
+    }
+  }
 
 .top10_row:hover {
     transform: scale(1.05);
