@@ -1,0 +1,60 @@
+
+.covid_info_widget {
+    background: #fff;
+    padding: 15px 15px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 15px 20px 0 rgba(20, 50, 90, 0.05);
+    border-radius: 3px;
+    transition: all 0.5s;
+    transition: transform 0.4s ease-in-out;
+    margin: 15px;
+}
+
+.covid_info_widget:hover {
+    transform: translateY(-12px);
+}
+
+
+.covid_info_widget h4 {
+    font-size: 20px;
+    color: #000;
+    padding: 0 15px 20px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.covid_info_widget h3 {
+    font-size: 35px;
+    padding: 0 15px 0px 0px;
+    margin-bottom: 0;
+    color: #000;
+    text-align: left; 
+}
+
+.covid_info_widget .covid_icon {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    right: -30px;
+    top: -30px;
+    opacity: 0.1;
+}
+
+.covid_icon img {
+    width: 100%;
+}
+
+.covid_info_widget:hover .covid_icon img {
+    animation: rotate infinite 5s linear;
+}
+
+@keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
