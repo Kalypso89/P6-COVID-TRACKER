@@ -1,6 +1,6 @@
 import "./cardsCountryTracker1Molecule.css"
 import { useFetch } from "../../../hooks/useFetch"
-import { CardCountryStatisticsTracker1Atom } from "../../atoms/cardCountryStatisticsTracker1/cardCountryStatisticsTracker1Atom"
+import { CardCountryStatisticsTracker1Atom } from "../../atoms/cardCountryStatisticsTracker1/CardCountryStatisticsTracker1Atom"
 
 export const CardsCountryTracker1Molecule = ({ selectedCountry }) => {
     let endpoint = selectedCountry ? `countries/${selectedCountry}` : 'all'; 

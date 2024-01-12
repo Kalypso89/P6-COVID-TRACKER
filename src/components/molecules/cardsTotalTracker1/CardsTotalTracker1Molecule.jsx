@@ -1,6 +1,6 @@
 import "./cardsTotalTracker1Molecule.css"
 import { useFetch } from "../../../hooks/useFetch"
-import { CardTotalStatisticsTracker1Atom } from "../../atoms/cardTotalStatisticsTracker1/cardTotalStatisticsTracker1Atom"
+import { CardTotalStatisticsTracker1Atom } from "../../atoms/cardTotalStatisticsTracker1/CardTotalStatisticsTracker1Atom"
 
 export const CardsTotalTracker1Molecule = () => {
 
