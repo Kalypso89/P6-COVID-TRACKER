@@ -19,13 +19,16 @@ nav {
     }
 }
 
-.nav-pills{
-    padding: 5px;
+.nav-pills {
+    padding: 10px;
 }
- .nav-item {
+
+.nav-item {
     padding: 15px 10px;
 }
 
-.active{
+.nav_tracker .active {
     background-color: #3639AE !important;
+    padding: 5px;
+    border-radius: 8px;
 }
