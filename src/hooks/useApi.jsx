@@ -4,8 +4,8 @@
  export function useApi() {
     const [data,setData] = useState([]);
 
-    useEffect(() => {
-        const myEndpoint = `${API_URL}countries?sort=cases`;
+    useEffect((sortBy) => {
+        const myEndpoint = `${API_URL}countries${sortBy}`;
         fetch(myEndpoint)
         .then(response => {
             if (!response.ok) {
@@ -15,9 +15,6 @@
         })
         .then (data => {
         setData(data)
-        //   iria aqui el array o un olsole log para ver lo que hay
-        console.log(data);
-        console.log(data[1]);
         })
         .catch (error => {console.error('Error data', error);
     },[setData]);
