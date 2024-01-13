@@ -1,10 +1,10 @@
  import { useState, useEffect } from "react";
  import { API_URL } from "../configuration/config";
  
- export function useApi() {
+ export function useApi (sortBy) {  //creo que va aqui el sortby, dentro de esta funcion
     const [data,setData] = useState([]);
 
-    useEffect((sortBy) => {
+    useEffect(() => {
         const myEndpoint = `${API_URL}countries${sortBy}`;
         fetch(myEndpoint)
         .then(response => {
