@@ -9,7 +9,7 @@ export const NavbarMolecule = () => {
     <nav className="nav_tracker">
       <div className="d-flex flex-column">
         <Link to="/" className="p-4">
-          <img className="coronavirus-img" src="./src/assets/images/coronavirus.png" width="50" height="50" alt="Coronavirus"></img>
+          <img className="coronavirus-img" src="images/coronavirus.png" width="50" height="50" alt="Coronavirus"></img>
         </Link>
         <ul className="nav nav-pills flex-column mb-auto text-center">
           <li className={`nav-item ${currentPath === '/tracker1' ? 'active' : ''}`}>

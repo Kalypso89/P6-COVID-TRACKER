@@ -13,7 +13,7 @@ export const CardsTotalTracker1Molecule = () => {
         <CardTotalStatisticsTracker1Atom image="covid-green" title="Total Recovered" value={data.recovered} />
         <CardTotalStatisticsTracker1Atom image="covid-red" title="Total Deaths" value={data.deaths} />
         <CardTotalStatisticsTracker1Atom image="covid-redark" title="New Deaths" value={data.todayDeaths} />
-        <CardTotalStatisticsTracker1Atom image="call" title="Help Line No." value="198" />
+        <CardTotalStatisticsTracker1Atom image="telephone" title="Help Line No." value="198" />
 
       </div>
     
