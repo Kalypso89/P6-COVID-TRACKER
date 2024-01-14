@@ -12,7 +12,7 @@ export function useFetch(endPoint) {
           setData(apiData);
         })
         .catch(error => {
-          console.error('Error al obtener datos', error);
+          console.error('Error fetching data', error);
 
         });
     }, [endPoint]);
