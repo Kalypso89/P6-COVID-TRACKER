@@ -1,0 +1,86 @@
+@import url("../../../../node_modules/bootstrap-icons/font/bootstrap-icons.min.css");
+
+.nav_tracker {
+    height: 100vh;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #F7F8FC;
+}
+
+.coronavirus-img {
+    animation: rotate infinite 5s linear;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.nav_tracker li {
+    margin: 5px;
+}
+
+.nav_tracker .nav-pills {
+    padding: 10px;
+}
+
+.nav_tracker .nav-item {
+    padding: 5px;
+}
+
+.nav_tracker .nav-item:hover {
+    background-color: #3639AE !important;
+    border-radius: 8px;
+    color: white;
+}
+
+.nav_tracker .nav-item:hover i {
+    color: white !important;
+}
+
+.nav_tracker .active {
+    background-color: #3639AE !important;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.nav_tracker .active i {
+    color: white;
+}
+
+.nav_tracker i {
+    font-size: 24px;
+    color: #3639AE;
+}
+
+@media (max-width: 1399px) {
+    .nav_tracker {
+        width: 79px;
+    }
+
+    .nav_tracker div {
+        align-items: center;
+    }
+
+    i {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 574px) {
+    .nav_tracker {
+        width: 50px;
+    }
+    .coronavirus-img {
+        height: 40px;
+        width: 40px;
+    }
+
+    i {
+        font-size: 14px;
+    }
+}

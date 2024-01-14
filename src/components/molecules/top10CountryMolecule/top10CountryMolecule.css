@@ -1,0 +1,17 @@
+.top10_title {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.top10_container {
+    padding: 0;
+    list-style: none;
+}
+
+@media only screen and (max-width: 1399px) {
+    .top10_container {
+      display:flex;
+      flex-wrap: wrap;
+    }
+  }

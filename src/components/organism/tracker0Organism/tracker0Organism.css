@@ -1,0 +1,24 @@
+.tracker0_organism {
+    background-color: #fff;
+    height: 100vh;
+    width: 400px;
+    padding: 10px 20px;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-left: 20px;
+    flex-shrink: 0;
+}
+
+@media (max-width: 1199px) {
+    .tracker0_organism {
+        display: none;
+    }
+}
+
+@media (max-width: 1399px) {
+    .tracker0_organism {
+      width: 280px;
+      margin-left: 0;
+    }
+  }
