@@ -3,16 +3,20 @@ import DataTables from "datatables.net";
 import $ from 'jquery'
 import './tracker2Organism.css'
 
-const config = {headers: {Accept: 'application/json'}}  
-const getData = await fetch('https://disease.sh/v3/covid-19/countries', config)
-const content = await getData.json(); 
+async function getDatacovid () {
+    const config = {headers: {Accept: 'application/json'}}  
+    const getData = await fetch('https://disease.sh/v3/covid-19/countries', config)
+    const content = await getData.json(); 
+    
+    var datacovid = [];
+    
+    for(let i = 0; i < content.length; i++){
+        const tableContent = ['<img src='+ content[i].countryInfo.flag +' height="20">', content[i].country, content[i].cases, content[i].todayCases,
+        content[i].deaths, content[i].todayDeaths, content[i].recovered, content[i].active, content[i].critical, content[i].tests]
+        datacovid.push(tableContent);
+    }
 
-var datacovid = [];
-
-for(let i = 0; i < content.length; i++){
-    const tableContent = ['<img src='+ content[i].countryInfo.flag +' height="20">', content[i].country, content[i].cases, content[i].todayCases,
-    content[i].deaths, content[i].todayDeaths, content[i].recovered, content[i].active, content[i].critical, content[i].tests]
-    datacovid.push(tableContent);
+    return datacovid
 }
 
 export function Tracker2Organism(props) {
@@ -22,28 +26,33 @@ const tableRef = useRef()
  
 useEffect(() => {
     console.log(tableRef.current)
-    const table = $(tableRef.current).DataTable(
-        {
-            data: datacovid,
-            columns: [
-                { title: "Flag"},
-                { title: "Country"},
-                { title: "Cases"},
-                { title: "New Cases"},
-                { title: "Deaths"},
-                { title: "New Deaths"},
-                { title: "Recovered"},
-                { title: "Active"},
-                { title: "Critical"},
-                { title: "Tested"}
-            ],
-            destroy: true  // I think some clean up is happening here
-        }
-    )
+
+    let table
+
+    getDatacovid().then(datacovid => {
+        table = $(tableRef.current).DataTable(
+            {
+                data: datacovid,
+                columns: [
+                    { title: "Flag"},
+                    { title: "Country"},
+                    { title: "Cases"},
+                    { title: "New Cases"},
+                    { title: "Deaths"},
+                    { title: "New Deaths"},
+                    { title: "Recovered"},
+                    { title: "Active"},
+                    { title: "Critical"},
+                    { title: "Tested"}
+                ],
+                destroy: true  // I think some clean up is happening here
+            }
+        )
+    })
     // Extra step to do extra clean-up.
     return function() {
         console.log("Table destroyed")
-        table.destroy()
+        table && table.destroy()
     }
 },[])
     return (
