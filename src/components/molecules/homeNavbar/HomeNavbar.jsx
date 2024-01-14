@@ -6,7 +6,7 @@ export const HomeNavbar = () => {
       <nav className="navbar navbar-expand-lg navbar-light h-25 bg-white">
         <div className="container-fluid">
         <a className="navbar-brand logo-dark" href="index.html">
-          <img src="/src/assets/images/logo.png" alt="logo" className="img-fluid w-90" />
+          <img src="/images/logo.png" alt="logo" className="img-fluid w-90" />
           </a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>

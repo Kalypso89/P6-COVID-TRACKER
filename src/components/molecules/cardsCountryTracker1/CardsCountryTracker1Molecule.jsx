@@ -28,7 +28,7 @@ export const CardsCountryTracker1Molecule = ({ selectedCountry }) => {
 
             </div>
             <div className="col-lg-6 col-md-12 pe-0">
-                <img className="covid_image_map" src="src\assets\images\mapTracker1.png" alt="Covid World Map" />
+                <img className="covid_image_map" src="images\mapTracker1.png" alt="Covid World Map" />
             </div>
         </div>
     )
