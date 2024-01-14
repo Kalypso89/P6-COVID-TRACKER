@@ -6,7 +6,7 @@ export const NavbarMolecule = () => {
   const currentPath = location.pathname;
 
   return (
-    <nav className="d-flex nav_tracker">
+    <nav className="nav_tracker">
       <div className="d-flex flex-column">
         <Link to="/" className="p-4">
           <img className="coronavirus-img" src="./src/assets/images/coronavirus.png" width="50" height="50" alt="Coronavirus"></img>
@@ -28,11 +28,6 @@ export const NavbarMolecule = () => {
             </Link>
           </li>
         </ul>
-        <div>
-          <a href="#" className="d-flex align-items-center justify-content-center p-3">
-            <i className="bi bi-pause-circle-fill"></i>
-          </a>
-        </div>
       </div>
     </nav>
   );

@@ -7,7 +7,6 @@ nav {
 }
 
 .coronavirus-img {
-    height: 50px;
     animation: rotate infinite 5s linear;
 }
 
@@ -56,4 +55,32 @@ nav li {
 i {
     font-size: 24px;
     color: #3639AE;
+}
+
+@media (max-width: 1399px) {
+    nav {
+        width: 79px;
+    }
+
+    nav div {
+        align-items: center;
+    }
+
+    i {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 574px) {
+    nav {
+        width: 50px;
+    }
+    .coronavirus-img {
+        height: 40px;
+        width: 40px;
+    }
+
+    i {
+        font-size: 14px;
+    }
 }
