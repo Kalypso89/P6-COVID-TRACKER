@@ -11,7 +11,7 @@ To install the app follow these steps:
  3. Run the command  `npm install` in a console window to install all necessary dependencies: React, Bootstrap, jQuery, datatables, react-router-dom.
 
 # 🚀 Page deployment
-<p>The web application has been deployed in vercel : [https://p6-covid-tracker.vercel.app/](https://p6-covid-tracker.vercel.app/ "https://p6-covid-tracker.vercel.app/")</p>
+<p>The web application has been deployed in vercel : [https://p6-covid-tracker.vercel.app/](https://p6-covid-tracker.vercel.app)</p>
 
 # 💻 Technologies
 ![My Skills](https://skillicons.dev/icons?i=html,css,js,jquery,git,react,figma,github,nodejs,vite,bootstrap,discord,)
