@@ -20,5 +20,6 @@ The web application has been deployed in vercel : [https://p6-covid-tracker.verc
 ## [Ángela](https://https://github.com/Kalypso89)  - [Desi](https://github.com/DevDesiree)  - [María](https://github.com/maicaocaa)  - [Marta](https://github.com/martanuan)  - [Tania](https://github.com/Tania-Serrulla)
 
 # 📝 Based on
-<p>Original web on which we based our project : [Original web](https://covimap.dexignzone.com/xhtml/) </p>
-<p>API:  [https://disease.sh/docs](https://disease.sh/docs)</p>
+Original web on which we based our project : [https://covimap.dexignzone.com/xhtml/](https://covimap.dexignzone.com/xhtml/)
+
+API:  [https://disease.sh/docs](https://disease.sh/docs)
